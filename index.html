@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+    <header class="header_section">
+        <div class="social">
+            <div class="col-md">
+                <p><span>Free call</span> +1 234 456 78910</p>
+            </div> 
+            <div class="col-md-6">
+                <a href="#">FACEBOOK</a>
+                <a href="#">TWITTER</a>
+                <a href="#">DIBBLE</a>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        
+        <header>
+            <nav> 
+                <div>
+                    <img src="download.png" height="45px" width="60px">
+                </div> 
+                <div class="nav-items">
+                    <a href="#">HOME</a> 
+                    <a href="#">ABOUT</a> 
+                    <a href="#">LISTING</a>
+                    <a href="#">BLOG</a>
+                    <a href="#">CONTACT</a> 
+                    
+                    <button id="listbtn">+ ADD LISTING</button>
+                </div>
+            </nav>
+        </header> 
+        <div class="head-content">
+            <h1>Let's Explore Your <br> Awesome City</h1>
+            <p>Find great places to stay,eat,shop,or visit from local experts.</p>
+        </div>
+        <div class="container">
+            <form>
+                <div class="search-container">
+ 
+                <input type="text" class="search" class="fa fa-search" placeholder="&#xf002; What are you looking for?">
+                <input type="text" class="location" class="fa fa-map-marker" placeholder="&#xf041; Search Location">
+                     
+                    <select name="Category " type="text" id="catg">
+                        <option value="All">All Categories</option>
+                        <option value="AL">Food & Drinks</option>
+                        <option value="AK">Hotel</option>
+                        <option value="AZ">Shopping </option>
+                        <option value="AR">Beauty</option>
+                        <option value="CA">Fitness</option>
+                        <option value="CO">Bar & Club</option>
+                        <option value="CT">Games</option>
+                        <option value="DE">Places</option>
+                    </select>
+
+                    <div>        
+                        <button id="submit" class="btn btn danger "> <i class="fa fa-search "> </i> Search </button>
+                    </div> 
+                </div> 
+            </form>
+              
+            
+        </div>
+    </section>
+    <section class="first">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis maxime cupiditate vitae praesentium, nemo facere in </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam in architecto rem sed tempora, alias quisquam doloremqu </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, labore expedita id ullam harum eligendi quam nihil ut, at </p>
+    </section>
+
+    <script>
+        window.addEventListener('scroll',function(){
+            let navbar= document.querySelector('nav');
+            if(window.pageYOffset > 0){
+                navbar.classList.add('sticky');
+            }
+            else{
+                navbar.classList.remove('sticky');
+            }
+        });
+    </script>
+
+
+
+
+
+
+
+
+
+    <!--<header><img src="#"></header>
+    <section class="first">
+        <img id="background-1" src="https://preview.colorlib.com/theme/directone/images/bg_1.jpg" alt="image" opacity="0.75" height="695" width="1525" />
+    </section>
+    <section class="second">
+        <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">LISTING</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>-->
+
+
+
+
+
+            <!--<a class="nav-brand d-flex align-items-center" href="#">
+                <span class="flaticon flaticon-compass">
+                    ::before
+                    </span>
+                    <span class>
+                        "Directone"
+                        <small>Directory and Listing</small>
+                    </span>
+                </span>
+            </a>-->
+        </div>
+    </section>
+    <section class="third"></section>
+   
+
+
+
+
+    <!--<div class="bg">
+        <div class="container">
+            <img id="background-1" src="https://preview.colorlib.com/theme/directone/images/bg_1.jpg" alt="image" opacity="0.75" height="695" width="1525" />
+        </div>
+        <nav>
+            <label class="logo"></label>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">LISTING</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+    </div>-->
+    
+
+</body>
+</html>

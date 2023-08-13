@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family: "Nunito sans", Aerial, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    overflow-x: hidden;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+.main{
+    background: url(bg_1.jpg.webp);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    
+    
+}
+
+a{
+    text-decoration:none;
+}
+
+
+
+nav{
+    height: 7vh;
+    padding: 0 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    transition: all 0.5s;
+    z-index: 1000;
+    margin-top: 28px;
+    color: aliceblue;
+}
+
+.nav-items a{
+    margin-right: 25px;
+
+}
+
+nav a{
+    color: rgb(253, 252, 252);
+    font-size: 1.5rem;
+    margin-left: 4rem;
+    
+    text-transform: capitalize;
+    transition: all 0.5s;
+    letter-spacing: 1px;
+}
+
+
+.head-content{
+    position: absolute;
+    top: 45%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.head-content h1{
+    font-size: 7rem;
+    font-weight: 550;
+    color: rgb(239, 244, 246);
+    text-transform: capitalize;
+}
+.head-content p{
+    color:aliceblue;
+    font-size: 1.7rem;
+    transform: translate(10%, 100%);
+}
+.first{
+    margin-top: 10rem;
+}
+.first p{
+    font-size: 1.4rem;
+    padding: 0 4rem;
+    margin: 1rem;
+    line-height: 1.7;
+}
+nav.sticky{
+    background: rgba(3, 3, 3, 0.863);
+}
+nav.sticky a{
+    color: rgb(254, 252, 252);
+}
+nav.sticky .logo{
+    color:black;
+}
+  
+.container {
+    width: 900px;
+    
+    margin: 0 auto;
+    padding: 16px;
+  }
+  
+  
+  
+.search-container {
+    
+    margin-top: 480px;
+    display: flex;
+    
+  }
+  
+  input {
+    min-width: 20px;
+    padding: 8px;
+    margin: 0 2px 0 0;
+    border: 1px solid #666;
+    border-radius: 5px;
+    height: 30px;
+  }
+  
+  
+  
+  input {
+    
+    align-self: auto;  
+    padding: 25px 20px 25px 20px;
+    
+    
+}
+  
+.search {
+    flex: 0 1 auto;
+    padding: 25px 100px 25px 20px;
+  }
+  
+  .location{
+    flex: 0 1 auto;
+    padding: 25px 100px 25px 20px;
+  }
+  
+  
+  #catg{
+    padding: 19px 100px 18px 20px;
+    border-radius: 5px;
+  }
+  
+.fa-map-marker{
+    
+    top:10px;
+    left:10px;
+}
+.fa-search{
+    
+    top:10px;
+    left:10px;
+}
+
+  .btn-container {
+    text-align: center;
+  }
+  
+   #listbtn {
+    display: inline-block;
+    margin-right: 6px;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-size:small;
+    
+  }
+  
+   #submit {
+    display: flex;
+    margin: 0;
+    padding: 16px 75px;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-size:small;
+    
+  }
+  
+  
+
+span{
+    color: #f44336;
+    font-size: 13px;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #10151c;
+    height: 4vh;
+    padding: 6px 100px;
+    
+    align-items: center;
+    
+    width: 100%;
+    position: fixed;
+    transition: all 0.5s;
+    z-index: 1000;
+}
+
+.social p{
+    color: aliceblue;
+    font-size: 13px;
+}
+
+.social a{
+    
+    color: #666;
+    margin-right: 28px;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-weight: 700;
+    font-family: "Nunito Sans", Arial, sans-serif;
+    letter-spacing: 1px;
+    text-align: start;
+    padding: 20px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.col-md-6 a::before{
+    content: "\22C5";
+    
+}
+/*------------------------------------media tag------------------------------------*/
+
+@media screen and (min-width: 992px){
+.container{
+    
+    flex: 0 0 auto;
+    width: 66.66667%;
+}
+.h1 p{
+    height: auto;
+    width: 50%
+}
+}
+
+
+  
+  
+  
+  
+
+
+
+
+
+
+
