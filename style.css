@@ -244,9 +244,12 @@ span{
     content: "\22C5";
     
 }
+/*.col-md-6 a::before{
+    content: "\22C5";
+    
+}*/
 
 
-/*------------------------------------media tag------------------------------------*/
 
 @media screen and (min-width: 992px){
 .container{
